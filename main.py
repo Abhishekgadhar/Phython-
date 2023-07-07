@@ -1,0 +1,23 @@
+li=[5,4,6,3]
+
+li.append(4)
+print(li)
+li.pop()
+print(li)
+li.sort()
+print(li)
+print(li.count(5))
+# li.clear()
+print(li)
+li.extend([5,7,8,9])
+print(li)
+bi=li.copy()
+print(bi)
+print(li.index(6))
+li.remove(5)
+print(li)
+li.insert(0,111)
+# index,object
+print(li)
+li.reverse()
+print(li)
